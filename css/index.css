@@ -1,0 +1,100 @@
+body {
+    overflow-x: hidden;
+    background-image: url('../img/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* https://unsplash.com/photos/n_Jb_d8O43Q Alexandr Podvalny*/
+}
+.container-custom {
+    max-width: 70%;
+    padding-right: var(--bs-gutter-x,.75rem);
+    padding-left: var(--bs-gutter-x,.75rem);
+    margin-right: auto;
+    margin-left: auto;
+}
+.navbar {
+    padding-top: 5px!important;
+    padding-bottom: 0px!important;
+}
+nav, .navbar-brand {
+    font-size: 1.3rem;
+}
+.nav-link, .navbar-brand {
+    color: white!important;
+    transition: none;
+}
+.nav-link:hover {
+    border-bottom: 3px solid #c7b9ac;
+    padding-bottom: 2px;
+}
+h1 {
+    font-size: 6rem;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+h3 {
+    font-size: 1.5rem;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+.col a {
+    text-decoration: none;
+}
+.socialbutton {
+    height: 50px;
+    width: 50px;
+    padding: 9px 8px;
+    color: white;
+    border-radius: 50px;
+    margin-right: auto!important;
+    margin-left: auto!important;
+}
+.socialbutton:hover {
+    color: black;
+}
+.footer {
+    position: fixed;
+    bottom: 0;
+    max-width: 100%!important;
+    width: 100%;
+}
+
+/* mobile */
+@media only screen and (max-width: 895px) {
+    body.container-custom {
+        max-width: 100%;
+        padding-right: 0;
+        padding-left: 0;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    nav.container-custom {
+        max-width: none;
+        padding-right: var(--bs-gutter-x,.75rem);
+        padding-left: var(--bs-gutter-x,.75rem);
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .nav-link {
+        text-align: right;
+    }
+}
+@media only screen and (max-width: 425px) {
+    .nav-link {
+        text-align: right;
+    }
+}
+@media only screen and (max-width: 1318px) {
+    body.container-custom {
+        max-width: 100%;
+        padding-right: 0;
+        padding-left: 0;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    nav.container-custom {
+        max-width: none;
+        padding-right: var(--bs-gutter-x,.75rem);
+        padding-left: var(--bs-gutter-x,.75rem);
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
